@@ -4,19 +4,13 @@ Installer otomatis untuk memasang koleksi Agent Skills (`SKILL.md`) ke berbagai 
 
 ## Cara Menggunakan
 
-1. Ekstrak arsip ini dan buka terminal di direktori proyek:
-   ```bash
-   unzip ai-agent-skills.zip
-   cd ai-agent-skills
-   ```
-
-2. Jalankan installer interaktif. Di Windows, gunakan:
+1. Jalankan installer interaktif. Di Windows, gunakan:
    ```powershell
    py setup.py
    ```
    Jika perintah `py` tidak tersedia, gunakan `python setup.py`. Di macOS/Linux, gunakan `python3 setup.py`.
 
-3. Pilih skill yang ingin dipasang terlebih dahulu. Lalu pilih agent AI tujuan, cakupan pemasangan (global atau project), dan metode pemasangan. Gunakan **Panah Atas/Bawah** untuk berpindah pilihan, **Spasi** untuk memilih, **A** untuk memilih semua, lalu tekan **Enter**.
+2. Pilih skill yang ingin dipasang terlebih dahulu. Lalu pilih agent AI tujuan, cakupan pemasangan (global atau project), dan metode pemasangan. Gunakan **Panah Atas/Bawah** untuk berpindah pilihan, **Spasi** untuk memilih, **A** untuk memilih semua, lalu tekan **Enter**.
 
 ## Mode CLI Langsung (Non-Interaktif)
 
