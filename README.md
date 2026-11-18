@@ -4,11 +4,11 @@ Installer otomatis untuk memasang koleksi Agent Skills (`SKILL.md`) ke berbagai 
 
 ## Cara Menggunakan
 
-1. Jalankan installer interaktif. Di Windows, gunakan:
+1. Jalankan installer interaktif:
    ```powershell
-   py setup.py
+   python setup.py
    ```
-   Jika perintah `py` tidak tersedia, gunakan `python setup.py`. Di macOS/Linux, gunakan `python3 setup.py`.
+   Di macOS/Linux, gunakan `python3 setup.py` jika perintah `python` tidak tersedia.
 
 2. Pilih skill yang ingin dipasang terlebih dahulu. Lalu pilih agent AI tujuan, cakupan pemasangan (global atau project), dan metode pemasangan. Gunakan **Panah Atas/Bawah** untuk berpindah pilihan, **Spasi** untuk memilih, **A** untuk memilih semua, lalu tekan **Enter**.
 
@@ -16,19 +16,19 @@ Installer otomatis untuk memasang koleksi Agent Skills (`SKILL.md`) ke berbagai 
 
 - Pasang skill ke OpenCode dan Codex secara global menggunakan symlink (Windows):
   ```bash
-  py setup.py --skills nama-skill --agents opencode,codex --scope global --mode symlink
+  python setup.py --skills nama-skill --agents opencode,codex --scope global --mode symlink
   ```
 - Pasang skill ke direktori proyek tertentu:
   ```bash
-  py setup.py --skills nama-skill --agents opencode,codex --scope project --project-dir C:\path\ke\proyek
+  python setup.py --skills nama-skill --agents opencode,codex --scope project --project-dir C:\path\ke\proyek
   ```
 - Cek status pemasangan skill di semua agent:
   ```bash
-  py setup.py --list
+  python setup.py --list
   ```
 - Hapus skill dari agent tertentu:
   ```bash
-  py setup.py --skills nama-skill --uninstall --agents opencode,codex --scope global
+  python setup.py --skills nama-skill --uninstall --agents opencode,codex --scope global
   ```
 
 ## Menambah Skill Baru di Masa Depan
